@@ -3,9 +3,7 @@ function mensaje(){
 }
 
 function api(){
-	let url =  "http://ecs.amazonaws.com/AWSECommerceService/AWSECommerceService.wsdl"
-
-
+	let url =  "https://developers.google.com/maps/documentation/directions/overview?hl=es-419"
 	$.get(url,function(res){
 	console.log(res)
 })
