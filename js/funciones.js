@@ -6,7 +6,7 @@ function mensaje(){
 function api(){
   $.ajax({
     tyoe:"GET",
-    url: "https://developers.google.com/maps/documentation/directions/overview?hl=es-419",
+    url: "https://maps.googleapis.com/maps/api/directions/json?destination=Montreal&origin=Toronto&key=miKry",
     xhrFields: {
        withCredentials: true
     }
